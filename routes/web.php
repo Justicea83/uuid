@@ -53,5 +53,9 @@ Route::group(['middleware'=>'web'],function(){
 	//Route::get('/password/reset/{token}','ResetPasswordController@showForm')->name('password.reset');
 	//Route::post('/password/reset','ResetPasswordController@reset');
 
+	Route::get('/bot','botController@bot')->middleware('verifyBot');
+	Route::post('/bot','botController@bot');
+
+
 });
 
