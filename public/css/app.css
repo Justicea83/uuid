@@ -1,0 +1,43 @@
+.header{
+	text-align: center;
+}
+.heading{
+	margin-top: 25px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 15px 10px 10px 10px;
+	border-radius: 4px;
+	opacity: .6;
+}
+#btn1{
+	margin:8px 0 0 0px;
+}
+
+.panel{
+	margin-top: 25px;
+}
+.forgot{
+	margin-left: 10px;
+	text-decoration: underline;
+}
+.toggle{
+	margin:20px 0 0 0px; 
+
+}
+
+.glyphicon{
+	pointer-events: all;
+}
+
+#searchform{
+	position: relative;
+	top: 100px;
+}
+
+#well{
+	position: relative;
+	top: 100px;
+
+}
+
